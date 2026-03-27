@@ -9,6 +9,7 @@
     flex-wrap: wrap;
     width: 500px;
     height: 500px;
+    box-sizing: content-box;
     border: 1px solid black;
 }
 
