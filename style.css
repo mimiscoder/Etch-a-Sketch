@@ -11,3 +11,12 @@
     height: 500px;
     border: 1px solid black;
 }
+
+body {
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+}
