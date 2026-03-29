@@ -17,3 +17,7 @@ numberOfCells = 256;
 createGridCells(numberOfCells, cellSize);
 
 const resizeGridBtn = document.querySelector(".resize-grid-btn");
+
+resizeGridBtn.addEventListener("click", () => {
+
+})
