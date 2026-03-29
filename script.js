@@ -9,3 +9,5 @@ function createGridCells(cellCount, cellSize){
         gridContainer.appendChild(gridCell);
     }
 }
+
+let numberOfCells, cellSize;
