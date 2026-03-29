@@ -10,7 +10,7 @@ function createGridCells(cellCount, cellSize){
     }
 }
 
-let numberOfCells, cellSize;
+let numberOfCells, cellSize, userPrompt;
 cellSize = 31.25;
 numberOfCells = 256;
 
