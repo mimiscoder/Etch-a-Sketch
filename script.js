@@ -11,3 +11,5 @@ function createGridCells(cellCount, cellSize){
 }
 
 let numberOfCells, cellSize;
+cellSize = 31.25;
+numberOfCells = 256;
