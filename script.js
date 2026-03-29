@@ -20,5 +20,6 @@ const resizeGridBtn = document.querySelector(".resize-grid-btn");
 
 resizeGridBtn.addEventListener("click", () => {
     while(true){
+        userPrompt = prompt("Enter the grid:");
     }
 })
