@@ -47,3 +47,9 @@ resizeGridBtn.addEventListener("click", () => {
 let childElements = gridContainer.children;
 
 const blackPenBtn = document.querySelector(".black-pen-btn");
+blackPenBtn.addEventListener("click", () => {
+    for(const element of childElements) {
+        element.style.backgroundColor = "white";
+        element.style.opacity = 0;
+    }
+})
