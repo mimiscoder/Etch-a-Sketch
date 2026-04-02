@@ -50,7 +50,7 @@ const blackPenBtn = document.querySelector(".black-pen-btn");
 blackPenBtn.addEventListener("click", () => {
     for(const element of childElements) {
         element.style.backgroundColor = "white";
-        element.style.opacity = 0;
+        element.style.opacity = 1;
     }
 
     for(const element of childElements){
