@@ -23,7 +23,7 @@ resizeGridBtn.addEventListener("click", () => {
         userPrompt = prompt("Enter the grid:");
         if(!isNaN(userPrompt) && userPrompt !== null && userPrompt !== "") {
             userPrompt = Number(userPrompt);
-            if(userInput < 100) {
+            if(userPrompt < 100) {
                 break;
             }
             alert("Enter a valid number value!")
