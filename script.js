@@ -32,6 +32,10 @@ resizeGridBtn.addEventListener("click", () => {
     numberOfCells = userPrompt * userPrompt;
     let gridContainerWidth = Number(gridContainer.style.width.replace("px", ""));
     cellSize = gridContainerWidth / userPrompt;
+
+    gridContainer.innerHTML = "";
+
+    
 })
 
 const resetGridBtn = document.querySelector(".reset-grid-btn");
