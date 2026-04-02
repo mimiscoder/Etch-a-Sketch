@@ -30,7 +30,7 @@ resizeGridBtn.addEventListener("click", () => {
     }
 
     numberOfCells = userPrompt * userPrompt;
-    let gridContainerWidth = Number(gridContainer.style.width.replace("px", ""));
+    let gridContainerWidth = Number(getComputedStyle(gridContainer).width.replace("px", ""));
     cellSize = gridContainerWidth / userPrompt;
 
     gridContainer.innerHTML = "";
