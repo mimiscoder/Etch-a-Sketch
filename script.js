@@ -17,7 +17,6 @@ numberOfCells = 256;
 createGridCells(numberOfCells, cellSize);
 
 const resizeGridBtn = document.querySelector(".resize-grid-btn");
-
 resizeGridBtn.addEventListener("click", () => {
     while(true){
         userPrompt = prompt("Enter the grid:");
@@ -32,3 +31,6 @@ resizeGridBtn.addEventListener("click", () => {
 })
 
 const resetGridBtn = document.querySelector(".reset-grid-btn");
+resizeGridBtn.addEventListener("click", () => {
+    createGridCells(numberOfCells, cellSize);
+})
