@@ -52,4 +52,10 @@ blackPenBtn.addEventListener("click", () => {
         element.style.backgroundColor = "white";
         element.style.opacity = 0;
     }
+
+    for(const element of childElements){
+        element.addEventListener("mouseover", (e) => {
+            e.target.style.backgroundColor = `black`;
+        });
+    }
 })
