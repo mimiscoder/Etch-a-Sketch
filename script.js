@@ -26,6 +26,7 @@ resizeGridBtn.addEventListener("click", () => {
             if(userInput < 100) {
                 break;
             }
+            alert("Enter a valid number value!")
         }
     }
 })
