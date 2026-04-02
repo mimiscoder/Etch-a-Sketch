@@ -35,7 +35,7 @@ resizeGridBtn.addEventListener("click", () => {
 
     gridContainer.innerHTML = "";
 
-    createGridCells(numberOfCells, cellSize);
+    createGridCells(currentCellsCount, currentCellSize);
 })
 
 const resetGridBtn = document.querySelector(".reset-grid-btn");
