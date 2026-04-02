@@ -30,3 +30,5 @@ resizeGridBtn.addEventListener("click", () => {
         alert("Enter a valid number value!")
     }
 })
+
+const resetGridBtn = document.querySelector(".reset-grid-btn");
