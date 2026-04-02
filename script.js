@@ -44,4 +44,6 @@ resizeGridBtn.addEventListener("click", () => {
     createGridCells(numberOfCells, cellSize);
 })
 
+let childElements = gridContainer.children;
+
 const blackPenBtn = document.querySelector(".black-pen-btn");
