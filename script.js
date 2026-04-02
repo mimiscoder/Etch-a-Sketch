@@ -59,3 +59,5 @@ blackPenBtn.addEventListener("click", () => {
         });
     }
 })
+
+const rainbowBtn = document.querySelector(".rainbow-btn");
