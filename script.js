@@ -66,4 +66,13 @@ rainbowBtn.addEventListener("click", () => {
         element.style.backgroundColor = "white";
         element.style.opacity = 0;
     }
+
+    for(const element of childElements){
+        let redChannel = Math.floor(Math.random() * 256);
+        let greenChannel = Math.floor(Math.random() * 256);
+        let blueChannel = Math.floor(Math.random() * 256);
+        element.addEventListener("mouseover", (e) => {
+            e.target.style.backgroundColor = `rgb(${redChannel}, ${greenChannel}, ${blueChannel})`;
+        });
+    }
 })
