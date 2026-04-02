@@ -34,3 +34,5 @@ const resetGridBtn = document.querySelector(".reset-grid-btn");
 resizeGridBtn.addEventListener("click", () => {
     createGridCells(numberOfCells, cellSize);
 })
+
+const blackPenBtn = document.querySelector(".black-pen-btn");
