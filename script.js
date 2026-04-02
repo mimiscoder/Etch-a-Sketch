@@ -78,3 +78,11 @@ rainbowBtn.addEventListener("click", () => {
 })
 
 const shadeBtn = document.querySelector(".shade-btn");
+shadeBtn.addEventListener("click", () => {
+    for(const element of childElements) {
+        element.style.backgroundColor = "white";
+        element.style.opacity = 0;
+    }
+
+    
+})
