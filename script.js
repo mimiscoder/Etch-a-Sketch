@@ -29,9 +29,9 @@ resizeGridBtn.addEventListener("click", () => {
         alert("Enter a valid number value!")
     }
 
-    numberOfCells = userPrompt * userPrompt;
+    let currentCellsCount = userPrompt * userPrompt;
     let gridContainerWidth = Number(getComputedStyle(gridContainer).width.replace("px", ""));
-    cellSize = gridContainerWidth / userPrompt;
+    let currentCellSize = gridContainerWidth / userPrompt;
 
     gridContainer.innerHTML = "";
 
