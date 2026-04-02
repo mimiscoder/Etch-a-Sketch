@@ -61,3 +61,9 @@ blackPenBtn.addEventListener("click", () => {
 })
 
 const rainbowBtn = document.querySelector(".rainbow-btn");
+rainbowBtn.addEventListener("click", () => {
+    for(const element of childElements) {
+        element.style.backgroundColor = "white";
+        element.style.opacity = 0;
+    }
+})
