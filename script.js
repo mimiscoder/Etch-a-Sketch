@@ -76,3 +76,5 @@ rainbowBtn.addEventListener("click", () => {
         });
     }
 })
+
+const shadeBtn = document.querySelector(".shade-btn");
