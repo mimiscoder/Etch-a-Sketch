@@ -90,9 +90,7 @@ shadeBtn.addEventListener("click", () => {
         let blueChannel = Math.floor(Math.random() * 256);
         element.onmouseover = (e) => {
             e.target.style.backgroundColor = `rgb(${redChannel}, ${greenChannel}, ${blueChannel})`;
-            let elemetntOpacity = Number(e.target.style.opacity);
-            elemetntOpacity += 0.1;
-            e.target.style.opacity = elemetntOpacity;
+            e.target.style.opacity = Number(e.target.style.opacity) + 0.1;
         };
     }
 })
